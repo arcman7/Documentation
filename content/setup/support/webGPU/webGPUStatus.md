@@ -36,4 +36,4 @@ The most important optimizations have now been done (see [Optimizations](/setup/
 
 ## Browser Caveats
 Chrome Canary does not support all WebGPU features yet (or some others are not fully functional yet), so here are some caveats:
-* GPU timing in the **Inspector** does not work because timestamp queries are currently disabled in Chrome. You can start Chrome with the `--disable-dawn-features=disallow_unsafe_apis` flag if you want to enable them.
+* GPU timing in the **Inspector** does not work because timestamp queries are currently disabled in Chrome. You can start Chrome with the `--enable-dawn-features=allow_unsafe_apis` flag if you want to enable them.
